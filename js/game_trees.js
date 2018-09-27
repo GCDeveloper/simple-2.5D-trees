@@ -314,7 +314,7 @@
 		function sortByDist(a,b) {
 			return a.dist - b.dist;
 		};
-		var sound = new Howl({
+		/*var sound = new Howl({
 		  urls: ['sounds/dings.mp3'],
 		  sprite: {
 			ding0: [0, 750],
@@ -328,7 +328,7 @@
 			ding8: [6830, 800],
 			ding9: [7630, 910]
 		  }
-		});
+		});*/
 			var mouse = {
 			dragDist: 0,
 			position: {x:0, y:0},
